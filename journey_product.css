@@ -1,0 +1,415 @@
+body, html {
+    margin: 0;
+    width: 100%;
+    font-family: 'arial black';
+    background-size: cover;
+}
+/**************/
+
+/** TOP CONTENT **/
+
+#jp-topcontent {
+    background-color: orange;
+}
+
+#phone-menu {
+    display: none;
+}
+
+.lt-header {
+}
+
+.lt-header p {
+    font-size: 10px;
+    position: fixed;
+    top: 0px;
+    right: 20px;
+}
+
+.fa-instagram {
+    font-size: 12px;
+}
+
+.lt-header a {
+    color: black;
+    text-decoration: none;
+    border-bottom: dotted 1px white;
+}
+
+.lt-header a:hover {
+    color: white;
+    text-shadow: 0px 0px 1px black;
+    transition: all 0.2s;
+}
+
+.lt-header h1 {
+    -weblit-writing-mode: vertical-rl;
+    -ms-writing-mode: tb-rl;
+    writing-mode: vertical-rl;
+    font-size: 70px;
+    padding-top: 0px;
+    position: fixed;
+    top: 60px;
+    right: 0px;
+    letter-spacing: -6px;
+}
+
+.circle-bg {
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+    margin: auto;
+    width: 80%;
+    height: 40%;
+    
+}
+
+.usagi {
+    height: 60%;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+}
+
+
+
+.pop-up-news {
+    width: 300px;
+    height: 30%;
+    position: fixed;
+    top: 15;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    padding-right: 30px;
+    display: none;
+}
+
+.pop-up-news h1 {
+    font-size: 20px;
+    text-align: center;
+    border: 10px double black;
+    border-radius: 5px;
+    margin: 0 60px;
+}
+
+.pop-up-news p {
+    color: black;
+    font-size: 10px;
+    text-align: center;
+}
+
+.usagi:hover + .pop-up-news {
+    display: block;
+    transition: all 0.5s;
+
+}
+
+.usagi:hover {
+    animation: shake 1.5s linear infinite;
+    -webkit-animation: shake 1.5s linear infinite;
+}
+@keyframes shake {
+    0% { transform: translate(3px, 2px) rotate(0deg); }
+    10% { transform: translate(-2px, -3px) rotate(-1deg); }
+    20% { transform: translate(-4px, 0px) rotate(1deg); }
+    30% { transform: translate(0px, 3px) rotate(0deg); }
+    40% { transform: translate(2px, -2px) rotate(1deg); }
+    50% { transform: translate(-2px, 3px) rotate(-1deg); }
+    60% { transform: translate(-4px, 2px) rotate(0deg); }
+    70% { transform: translate(3px, 2px) rotate(-1deg); }
+    80% { transform: translate(-2px, -2px) rotate(1deg); }
+    90% { transform: translate(2px, 4px) rotate(0deg); }
+    100% { transform: translate(2px, -3px) rotate(-1deg); }
+}
+
+
+#lt-moving-menu {
+    list-style: none;
+}
+
+#lt-moving-menu li img {
+    width: 600px;
+}
+
+#lt-moving-menu li a {
+    display: block;
+    position: fixed;
+}
+
+.menu-about {
+    top: 50px;
+    left: -500px;
+}
+
+.menu-gallery {
+    top: 150px;
+    left: -500px;
+}
+
+.menu-shop {
+    top: 250px;
+    left: -500px;
+}
+
+.menu-contact {
+    top: 350px;
+    left: -500px;
+}
+
+
+/***********************/
+
+.back-icon {
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.back-icon img {
+    width: 150px;
+    opacity: 0.5;
+}
+
+.back-icon img:hover {
+    opacity: 1;
+    width: 200px;
+    transition: all 0.5s;
+}
+
+
+/***********************/
+
+
+
+/** ABOUT JP CONTENT **/
+
+#about-content {
+    background-color: #01CDB4;
+    text-align: center;
+}
+
+#about-jp {
+}
+
+#about-jp img {
+    width: 70%;
+    margin: 0px 0;
+    border: 15px solid black;
+}
+
+#about-jp h1 {
+    font-size: 80px;
+    color: #01CDB4;
+    text-shadow: 17px 0 0 black;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    padding-top: 20px;
+}
+
+#about-jp p {
+    font-size: 15px;
+    margin-bottom: 100px;
+    line-height: 25px;
+}
+
+
+
+
+/** PAINTING CONTENT **/
+
+#jp-painting {
+    margin-top: 150px;
+    background-color: #4E01CD;
+    width: 100%;
+}
+
+#painting-content img {
+    width: 100px;
+    margin-bottom: 100px;
+    opacity: 0.5;
+}
+
+#painting-content img:hover {
+    opacity: 1;
+}
+
+#painting-content p {
+    font-size: 15px;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+
+
+
+/** CONTACT CONTENT **/
+
+#jp-contact {
+    background-color: #80CD01;
+}
+
+#jp-contact p {
+    margin-top: 200px;
+    margin-left: 100px;
+    font-size: 12px;
+}
+
+#jp-contact p a {
+    color: black;
+    text-decoration: none;
+    border-bottom: dotted 5px white;
+    letter-spacing: 2px;
+    font-size: 20px;
+}
+
+#jp-contact p a:hover {
+    color: white;
+    border-bottom: solid 5px black;
+    transition: all 0.5s;
+}
+
+
+
+/*****************/
+
+/** FOR PHONE **/
+
+@media screen and (max-width:800px) {
+    
+    #laptop-menu {
+        display: none;
+    }
+    
+    #phone-menu {
+        display: block;
+        margin-bottom: 200px;
+    }
+    
+    .phone-header {
+        margin: 30px 0;
+        text-align: center;
+    }
+    
+    .phone-header img {
+        width: 200px;
+        position: relative;
+        margin-left: 10px;
+    }
+    
+    .phone-header h1 {
+        font-size: 20px;
+        margin-bottom: 0;
+    }
+    .phone-header p {
+        margin-top: 0;
+        font-size: 12px;
+    }
+    
+    .phone-menu-menu {
+        width: 100%;
+    }
+    
+    .phone-menu-menu img {
+        width: 100%;
+    }
+    
+    label {
+        display: block;
+        transition: all 0.5s;
+    }
+    
+    .phone-menu-menu input {
+        display: none;
+    }
+    
+    .accshow {
+        height: 0;
+        opacity: 0;
+        overflow: hidden;
+        transition: 0.8s;
+        text-align: center;
+    }
+    
+    .accshow a {
+        color: black;
+        font-size: 20px;
+        text-decoration: none;
+        border-bottom: dotted 1px black;
+    }
+    
+    .accshow p {
+        font-size: 14px;
+    }
+    
+    
+    
+    #label:checked + .accshow {
+        height: auto;
+        opacity: 1;
+        padding: 10px;
+        
+    }
+    
+    .phone-footer {
+        font-size: 10px;
+        text-align: center;
+        margin-top: 50px;
+    }
+    
+    .dassou {
+        height: 100px;
+        display: inline-block;
+        margin: 0 30px;
+    }
+    
+    .dassou {
+        height: 80px;
+        display: block;
+        float: left;
+        animation: dassou 1.5s linear 0s 300;
+    }
+    
+    @keyframes dassou {
+  0%   { transform: scale(1.0, 1.0) translate(0%, 0%); }
+  10%  { transform: scale(1.1, 0.9) translate(0%, 5%); }
+  40%  { transform: scale(1.2, 0.8) translate(0%, 15%); }
+  50%  { transform: scale(1.0, 1.0) translate(0%, 0%); }
+  60%  { transform: scale(0.9, 1.2) translate(0%, -100%); }
+  75%  { transform: scale(0.9, 1.2) translate(0%, -20%); }
+  85%  { transform: scale(1.2, 0.8) translate(0%, 15%); }
+  100% { transform: scale(1.0, 1.0) translate(0%, 0%); }
+    }
+    
+    .phone-bottom {
+        position: fixed;
+        width: 100%;
+        height: 100px;
+        bottom: 0;
+        background-color: black;
+        color: white;
+    }
+    
+    .phone-bottom p {
+        font-size: 10px;
+    }
+    
+    .phone-bottom p span {
+        font-size: 30px;
+    }
+    
+    .back-icon img {
+        opacity: 1;
+        width: 100px;
+    }
+    
+   
+}
+
+
