@@ -281,7 +281,7 @@ body, html {
 
 /** FOR PHONE **/
 
-@media screen and (max-width:1300px) {
+@media screen and (max-width:850pt) {
     
     #laptop-menu {
         display: none;
